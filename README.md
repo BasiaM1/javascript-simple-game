@@ -1,2 +1,2 @@
-# javascript-simplr_game
-paper- rock-scissors
+# javascript-simple_game
+paper-rock-scissors
