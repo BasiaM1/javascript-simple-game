@@ -32,7 +32,6 @@ printMessage("Twój ruch to: " + argPlayerMove);
 function displayResult(argComputerMove, argPlayerMove) {
   console.log("moves:", argComputerMove, argPlayerMove);
 
-<<<<<<< HEAD
   if (
     (argComputerMove == "kamień" && argPlayerMove == "papier") ||
     (argComputerMove == "nożyce" && argPlayerMove == "kamień") ||
@@ -49,24 +48,3 @@ function displayResult(argComputerMove, argPlayerMove) {
 }
 
 printMessage(displayResult(argComputerMove, argPlayerMove));
-=======
-if (playerInput == 1) {
-    playerMove = 'kamień';
-} else if (playerInput == 2) {
-    playerMove = 'papier';
-} else if (playerInput == 3) {
-    playerMove = 'nożyce';
-}
-
-printMessage('Twój ruch to: ' + playerMove);
-
-if ((computerMove == 'kamień' && playerMove == 'papier') || (computerMove == 'nożyce' && playerMove == 'kamień') || (computerMove == 'papier' && playerMove == 'nożyce')) {
-    printMessage('Ty wygrywasz!');
-} else if (computerMove == playerMove) {
-    printMessage('Remis!');
-} else if (playerMove == 'nieznany ruch') {
-    printMessage('Wybrałeś inną liczbę niż 1, 2 lub 3. Spróbuj ponownie!');
-} else {
-    printMessage('Przegrałeś :-(');
-}
->>>>>>> 0113ea023593a86bf87f048e6c453343f77816a7
