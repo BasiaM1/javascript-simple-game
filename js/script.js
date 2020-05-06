@@ -37,14 +37,14 @@ function displayResult(argComputerMove, argPlayerMove) {
     (argComputerMove == "nożyce" && argPlayerMove == "kamień") ||
     (argComputerMove == "papier" && argPlayerMove == "nożyce")
   ) {
-    return "Ty wygrywasz!";
+    printMessage("Ty wygrywasz!");
   } else if (argComputerMove == argPlayerMove) {
-    return "Remis!";
+    printMessage("Remis!");
   } else if (argPlayerMove == "nieznany ruch") {
-    return "Wybrałeś inną liczbę niż 1, 2 lub 3. Spróbuj ponownie!";
+    printMessage("Wybrałeś inną liczbę niż 1, 2 lub 3. Spróbuj ponownie!");
   } else {
-    return "Przegrałeś :-(";
+    printMessage("Przegrałeś :-(");
   }
 }
 
-printMessage(displayResult(argComputerMove, argPlayerMove));
+displayResult(argComputerMove, argPlayerMove);
