@@ -1,0 +1,41 @@
+/*Variables*/
+.btn {
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  background-color: #16a085;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #ffff;
+  color: #16a085;
+}
+
+#play-rock {
+  background: #2980b9;
+  color: #ffff;
+}
+
+#play-rock:hover {
+  color: #2980b9;
+  background: #ffff;
+}
+
+#play-scissors {
+  background: #e74c3c;
+  color: #ffff;
+}
+
+#play-scissors:hover {
+  color: #e74c3c;
+  background: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
