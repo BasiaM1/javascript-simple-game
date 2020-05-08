@@ -3,7 +3,6 @@
   min-width: 160px;
   margin: 25px;
   padding: 16px;
-  background-color: #16a085;
   border-radius: 5px;
   border-width: 2px;
   border-style: solid;
@@ -14,14 +13,8 @@
   transition: all 1s;
 }
 
-.btn:hover {
-  background-color: #ffff;
-  color: #16a085;
-}
-
 #play-rock {
   background: #2980b9;
-  color: #ffff;
 }
 
 #play-rock:hover {
@@ -31,11 +24,19 @@
 
 #play-scissors {
   background: #e74c3c;
-  color: #ffff;
 }
 
 #play-scissors:hover {
   color: #e74c3c;
+  background: #ffff;
+}
+
+#play-paper {
+  background: #16a085;
+}
+
+#play-paper:hover {
+  color: #16a085;
   background: #ffff;
 }
 /*# sourceMappingURL=style.css.map */

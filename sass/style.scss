@@ -1,48 +1,48 @@
 /*Variables*/
 
-$color-paper:#16a085;
-$color-rock:#2980b9;
-$color-scissors:#e74c3c;
+$color-paper: #16a085;
+$color-rock: #2980b9;
+$color-scissors: #e74c3c;
 $color-text: #ffff;
 $transition: all 1s;
 
 .btn {
-    min-width: 160px;
-    margin: 25px;
-    padding: 16px;
-    background-color: $color-paper;
-    border-radius: 5px;
-    border-width: 2px;
-    border-style: solid;
-    color: $color-text;
-    text-transform: uppercase;
-    font-size: 24px;
-    cursor: pointer;
-    transition: $transition;
-
-    &:hover {
-        background-color: $color-text;
-        color: $color-paper;
-    }
+  min-width: 160px;
+  margin: 25px;
+  padding: 16px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  color: $color-text;
+  text-transform: uppercase;
+  font-size: 24px;
+  cursor: pointer;
+  transition: $transition;
 }
 
 #play-rock {
-    background: $color-rock;
-    color: $color-text;
+  background: $color-rock;
 
-    &:hover {
-        color: $color-rock;
-        background: $color-text;
-    }
+  &:hover {
+    color: $color-rock;
+    background: $color-text;
+  }
 }
 
-
 #play-scissors {
-    background: $color-scissors;
-    color: $color-text;
+  background: $color-scissors;
 
-    &:hover {
-        color: $color-scissors;
-        background: $color-text;
-    }
+  &:hover {
+    color: $color-scissors;
+    background: $color-text;
+  }
+}
+
+#play-paper {
+  background: $color-paper;
+
+  &:hover {
+    color: $color-paper;
+    background: $color-text;
+  }
 }
