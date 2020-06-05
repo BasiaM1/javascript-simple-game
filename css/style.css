@@ -1,4 +1,45 @@
 /*Variables*/
+/*Global*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #434b4d;
+  height: 70vh;
+}
+
+header {
+  margin: 20px 0;
+  font-family: "Press Start 2P", cursive;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+}
+
+header .part1 {
+  color: #16a085;
+}
+
+header .part2 {
+  color: #2980b9;
+}
+
+header .part3 {
+  color: #e74c3c;
+}
+
+.container h3 {
+  text-shadow: 2px 4px 10px #302d30;
+  text-transform: uppercase;
+}
+
 .btn {
   min-width: 160px;
   margin: 25px;
@@ -38,5 +79,24 @@
 #play-paper:hover {
   color: #16a085;
   background: #ffff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.end {
+  display: block;
+  margin: 15px auto;
+  background-position: 100% 0;
+  background-size: 300%;
+  background-color: #434b4d;
+  background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+  font-size: 16px;
+}
+
+.end:hover {
+  background-position: 0 100%;
+  color: #434b4d;
 }
 /*# sourceMappingURL=style.css.map */
