@@ -79,10 +79,14 @@
   const gameNum = document.querySelector('.panel-result .numbers span')
 
   const endGame = function () {
-    wins.innerHTML = 0;
-    draws.innerHTML = 0;
-    losses.innerHTML = 0;
-    gameNum.innerHTML = 0;
+    gameSummary.numbers = 0;
+    gameSummary.wins = 0;
+    gameSummary.losses = 0;
+    gameSummary.draws = 0;
+    wins.innerHTML = gameSummary.wins;
+    draws.innerHTML = gameSummary.draws;
+    losses.innerHTML = gameSummary.losses;
+    gameNum.innerHTML = gameSummary.numbers;
     clearMessages();
 
   }
